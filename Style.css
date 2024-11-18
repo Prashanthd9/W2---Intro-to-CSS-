@@ -60,16 +60,18 @@ button {
   width: 350px;
   border-radius: 10px;
   background-color: rgb(239, 239, 239);
+  text-align: center;
 }
 
-.card2 img {
-  width: 50px;
-  margin-bottom: 60px;
+.card2 a {
+  width: 100px;
+  margin-bottom: 20px;
+  font-size: 60px;
 }
 
 .card2-h2 {
   text-align: center;
-  margin-top: -40px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -84,15 +86,34 @@ button {
   margin-bottom: 30px;
 }
 
-.card2 input {
-  padding: 8px 60px;
-  background-color: #868686;
-  margin-bottom: 16px;
+.insert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 310px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
   border-radius: 8px;
-  border: none;
-  color: aliceblue;
+  padding: 0 14px;
+  margin-bottom: 20px;
 }
 
-#input {
-  color: azure;
+.ins-input {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.insert1 {
+  display: flex;
+  width: 310px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 0 14px;
+}
+
+.ins-input1 {
+  display: flex;
+  gap: 30px;
 }
