@@ -33,26 +33,6 @@
   color: #868686;
   margin-bottom: 30px;
 }
-strong {
-  color: black;
-}
-
-input {
-  padding: 8px 60px;
-  border-color: #6a30ff;
-  margin-bottom: 16px;
-  border-radius: 8px;
-}
-
-button {
-  background-color: #6a30ff;
-  color: white;
-  font-size: small;
-  font-weight: 600;
-  padding: 8px 112px;
-  border: none;
-  border-radius: 8px;
-}
 
 .card2 {
   margin: 20px auto;
@@ -108,7 +88,7 @@ button {
   display: flex;
   width: 310px;
   height: 40px;
-  background-color: rgb(255, 255, 255);
+
   border-radius: 8px;
   padding: 0 14px;
 }
